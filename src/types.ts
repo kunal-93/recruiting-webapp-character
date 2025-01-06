@@ -8,3 +8,10 @@ export type Attributes = {
 };
 
 export type Class = "Barbarian" | "Wizard" | "Bard";
+
+
+export type Generic = {
+    [k: string]: any
+    // value: number
+
+}
